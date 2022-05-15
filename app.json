@@ -1,0 +1,19 @@
+{
+    "name": "TGUploader 7.0",
+    "description": "Adapted for Heroku by yordante",
+    "env": {
+      "os.TOKEN": {
+        "description": "Token del bot",
+        "value": ""
+      },
+      "os.ADMIN": {
+        "description": "Administrador del bot",
+        "value": ""
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "https://github.com/heroku/heroku-buildpack-python.git"
+      }
+    ]
+  }
